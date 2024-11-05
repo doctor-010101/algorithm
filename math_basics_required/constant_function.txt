@@ -1,0 +1,26 @@
+🍀 A constant function is a mathematical function in which the output value remains constant, regardless of the input.
+    In other words, the output of a constant function is independent of the input, which is why it is called constant.
+
+🍀 In general, a constant function is written as:
+    f(x) = c or f(n) = c
+
+🍀 Properties of a Constant Function
+
+    1. Constant Output: For any value of  given to the function, the output will always be.
+    2. Horizontal Graph: The graph of a constant function on a coordinate plane is a horizontal line at.
+
+🍀Example
+
+    Consider the function. Here, the constant value. No matter what value of  is used, the output will always be 5.
+
+    f(1) = 5
+
+    f(-10) = 5
+
+    f(20) = 5
+
+
+
+🍀 Graph
+
+    In a coordinate system, the graph of the function  will be a horizontal line at y = 5.

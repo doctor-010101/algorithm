@@ -1,0 +1,6 @@
+🍀 The function f(n)=n is a linear function in which the output will be the same value for each input.
+
+🍀 Examples : 👇
+    f(1) = 1
+    f(6) = 6
+    f(5) = 5
