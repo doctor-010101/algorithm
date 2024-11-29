@@ -1,0 +1,50 @@
+The Concept of Logarithm in Computer Science
+
+A logarithm is a mathematical function widely used in computer science, acting as the inverse of the exponential function. Simply put, if:
+
+
+b^x = y
+
+
+Then, the logarithm of (y) with base (b) is:
+
+log_b(y) = x
+
+The logarithm tells us how many times (b) must be multiplied by itself to reach (y).  
+
+---
+Importance of Logarithm in Computer Science
+
+Logarithms are crucial for analyzing algorithms, especially for measuring time complexity.
+ They are frequently encountered in efficient algorithms like Binary Search or **Divide-and-Conquer sorting algorithms (e.g., Merge Sort). Many algorithms have time complexities of (O(log n)) or (O(n log n)). 
+
+---
+
+Logarithmic Rules
+
+
+---
+
+Coding Example: Binary Search
+Here’s an example of implementing binary search in Python:
+
+def binary_search(arr, target):
+    left, right = 0, len(arr) - 1
+    while left <= right:
+        mid = (left + right) // 2
+        if arr[mid] == target:
+            return mid  # Found the target
+        elif arr[mid] < target:
+            left = mid + 1
+        else:
+            right = mid - 1
+    return -1  # Target not found
+
+# Example usage:
+arr = [1, 3, 5, 7, 9, 11]
+target = 7
+print(binary_search(arr, target))  # Output: 3
+
+
+---
+
